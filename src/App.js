@@ -1,11 +1,12 @@
 import './App.css';
-import Getmailmsg from "./getmailmsg"
+// import Getmailmsg from "./getmailmsg"
+import Popup from "./component/pushNotifi"
 
 function App() {
   return (
     <div className="App">
       <h1>Mail prompt</h1>
-      <Getmailmsg/>
+      <Popup />
     </div>
   );
 }
